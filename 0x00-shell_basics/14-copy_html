@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -av --ignore-existing --include='*.html' --exclude='*' ./ ../
+shopt -s nullglob; for f in *.html; do [ -e "../$f" ] || cp -u "$f" "../$f"; done
