@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# run apache on designated container
+# page conatning Hello Holberton
+
+service apache2 start
