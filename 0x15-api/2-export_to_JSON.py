@@ -28,5 +28,3 @@ if __name__ == '__main__':
     """print(dict_data)"""
     with open('{}.json'.format(USER_ID), 'w') as f:
         json.dump(dict_data, f)
-        
-# Newline added here
